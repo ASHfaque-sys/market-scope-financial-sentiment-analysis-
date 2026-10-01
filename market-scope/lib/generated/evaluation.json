@@ -1,0 +1,140 @@
+{
+  "model": "TF-IDF unigrams + bigrams / balanced logistic regression",
+  "trained_at": "2026-10-01T16:02:41.276912+00:00",
+  "raw_count": 16777,
+  "raw_source_counts": {
+    "Twitter Financial News": 11931,
+    "Financial PhraseBank": 4846
+  },
+  "unique_count": 16538,
+  "removed_count": 239,
+  "conflicting_texts_removed": 8,
+  "duplicate_groups": 15578,
+  "split_counts": {
+    "train": 13230,
+    "validation": 1654,
+    "test": 1654
+  },
+  "class_counts": {
+    "neutral": 10438,
+    "positive": 3735,
+    "negative": 2365
+  },
+  "feature_count": 30000,
+  "seed": 42,
+  "selected_C": 4.0,
+  "validation_trials": [
+    {
+      "C": 1.0,
+      "validation_macro_f1": 0.7327335228043227
+    },
+    {
+      "C": 4.0,
+      "validation_macro_f1": 0.742015423422187
+    },
+    {
+      "C": 10.0,
+      "validation_macro_f1": 0.7419279433582844
+    }
+  ],
+  "accuracy": 0.7902055622732769,
+  "macro_f1": 0.7262085137614461,
+  "majority_accuracy": 0.6305925030229746,
+  "classification_report": {
+    "negative": {
+      "precision": 0.6120689655172413,
+      "recall": 0.5991561181434599,
+      "f1-score": 0.605543710021322,
+      "support": 237.0
+    },
+    "neutral": {
+      "precision": 0.8699902248289345,
+      "recall": 0.8533077660594439,
+      "f1-score": 0.861568247821878,
+      "support": 1043.0
+    },
+    "positive": {
+      "precision": 0.6892230576441103,
+      "recall": 0.7352941176470589,
+      "f1-score": 0.7115135834411385,
+      "support": 374.0
+    },
+    "accuracy": 0.7902055622732769,
+    "macro avg": {
+      "precision": 0.7237607493300953,
+      "recall": 0.7292526672833208,
+      "f1-score": 0.7262085137614461,
+      "support": 1654.0
+    },
+    "weighted avg": {
+      "precision": 0.792158145636676,
+      "recall": 0.7902055622732769,
+      "f1-score": 0.7909526130352225,
+      "support": 1654.0
+    }
+  },
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "confusion_matrix": [
+    [
+      142,
+      58,
+      37
+    ],
+    [
+      66,
+      890,
+      87
+    ],
+    [
+      24,
+      75,
+      275
+    ]
+  ],
+  "source_results": {
+    "Twitter Financial News": {
+      "count": 1185,
+      "macro_f1": 0.7368607511746731
+    },
+    "Financial PhraseBank": {
+      "count": 469,
+      "macro_f1": 0.7074155683226314
+    }
+  },
+  "sources": [
+    {
+      "repository": "zeroshot/twitter-financial-news-sentiment",
+      "file": "sent_train.csv",
+      "revision": "ccbe24de388e287beb92dd393a335c376b350ac3",
+      "sha256": "71aa99d0d37feced03c999ec23b5b25302c92f39d69b6acb0a37aa076c5420e8",
+      "url": "https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment/resolve/ccbe24de388e287beb92dd393a335c376b350ac3/sent_train.csv"
+    },
+    {
+      "repository": "zeroshot/twitter-financial-news-sentiment",
+      "file": "sent_valid.csv",
+      "revision": "ccbe24de388e287beb92dd393a335c376b350ac3",
+      "sha256": "31ea8274c98b52212daa68f2fb962811bf1913c1efe51b99765c8e2311806de6",
+      "url": "https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment/resolve/ccbe24de388e287beb92dd393a335c376b350ac3/sent_valid.csv"
+    },
+    {
+      "repository": "takala/financial_phrasebank",
+      "file": "data/FinancialPhraseBank-v1.0.zip",
+      "revision": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+      "sha256": "0e1a06c4900fdae46091d031068601e3773ba067c7cecb5b0da1dcba5ce989a6",
+      "url": "https://huggingface.co/datasets/takala/financial_phrasebank/resolve/8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964/data/FinancialPhraseBank-v1.0.zip"
+    }
+  ],
+  "limitations": [
+    "English financial text only; no independent Indian-news benchmark has been labelled yet.",
+    "Random grouped holdout, not a temporal backtest or an estimate of investment returns.",
+    "The published Twitter splits are pooled and re-split with PhraseBank; scores are not directly comparable to its official benchmark.",
+    "Near-duplicate grouping uses cosine similarity >= 0.88; semantic duplicates may remain.",
+    "Probabilities are uncalibrated model estimates, not probabilities of profit or truth.",
+    "Financial relevance is a conservative keyword gate, not a separately evaluated classifier.",
+    "PhraseBank uses the >50% agreement subset; some labels are ambiguous."
+  ]
+}

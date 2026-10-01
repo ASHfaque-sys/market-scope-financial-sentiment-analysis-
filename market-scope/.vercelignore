@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Local builds & cache
+.next/
+.vinext/
+dist/
+.wrangler/
+.sites-runtime/
+
+# Python & ML data
+.venv/
+.venv*/
+ml/data/
+__pycache__/
+
+# FinBERT ONNX model (>100MB exceeds Vercel Hobby limits; loaded via CDN in production)
+public/models/finbert/onnx/
+
+# Testing & temp
+coverage/
+*.log

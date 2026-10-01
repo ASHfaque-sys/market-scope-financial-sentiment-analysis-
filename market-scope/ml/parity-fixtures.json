@@ -1,0 +1,386 @@
+[
+  {
+    "text": "Company reports a sharp decline in quarterly profit",
+    "probabilities": [
+      0.44858027472143436,
+      0.18886480213858609,
+      0.3625549231399796
+    ]
+  },
+  {
+    "text": "Bank profits rise as loan growth accelerates",
+    "probabilities": [
+      0.10229876223893833,
+      0.055967520168883546,
+      0.8417337175921782
+    ]
+  },
+  {
+    "text": "Company announces annual general meeting on Monday",
+    "probabilities": [
+      0.01818965063287831,
+      0.9497331505882339,
+      0.032077198778887726
+    ]
+  },
+  {
+    "text": "The cricket team wins the final",
+    "probabilities": [
+      0.009885061757338382,
+      0.9390695317987857,
+      0.051045406443875826
+    ]
+  },
+  {
+    "text": "Profit increased but missed analyst expectations",
+    "probabilities": [
+      0.1572048422691643,
+      0.05140577923281383,
+      0.7913893784980219
+    ]
+  },
+  {
+    "text": "Reliance shares plunge after earnings miss",
+    "probabilities": [
+      0.9750699459160447,
+      0.0077756545557769695,
+      0.01715439952817817
+    ]
+  },
+  {
+    "text": "Company is not profitable",
+    "probabilities": [
+      0.28018649304859367,
+      0.6390880764826251,
+      0.08072543046878132
+    ]
+  },
+  {
+    "text": "Oil prices rise",
+    "probabilities": [
+      0.5457915046833602,
+      0.0173972333792746,
+      0.43681126193736525
+    ]
+  },
+  {
+    "text": "$CCL $RCL - Nomura points to bookings weakness at Carnival and Royal Caribbean https://t.co/yGjpT2ReD3",
+    "probabilities": [
+      0.46539947306280344,
+      0.1499189925077633,
+      0.38468153442943326
+    ]
+  },
+  {
+    "text": "$I - Intelsat cut to Market Perform at Raymond James https://t.co/YsvsMSQRIb",
+    "probabilities": [
+      0.8939543694280483,
+      0.062068971674439456,
+      0.04397665889751222
+    ]
+  },
+  {
+    "text": "$MDCO: Oppenheimer cuts to Perform",
+    "probabilities": [
+      0.91418634785654,
+      0.04218128220968571,
+      0.043632369933774326
+    ]
+  },
+  {
+    "text": "$VCLT $SPLB $IGLB - Guggenheim's Minerd sees more gloom ahead in stocks https://t.co/NKYQgy2o3J",
+    "probabilities": [
+      0.06584657630778694,
+      0.11434492395930555,
+      0.8198084997329076
+    ]
+  },
+  {
+    "text": "Berry Petroleum downgraded to underweight from sector weight at KeyBanc Capital",
+    "probabilities": [
+      0.9274099121972198,
+      0.0314849116615235,
+      0.04110517614125665
+    ]
+  },
+  {
+    "text": "Methanex downgraded at TD Securities on valuation",
+    "probabilities": [
+      0.9288623527392457,
+      0.054071638353415254,
+      0.017066008907338906
+    ]
+  },
+  {
+    "text": "Sherwin-Williams cut from Conviction Buy at Goldman on valuation",
+    "probabilities": [
+      0.7991617405158425,
+      0.053317020405190804,
+      0.14752123907896664
+    ]
+  },
+  {
+    "text": "The Manitowoc Company, Inc. Just Reported Earnings, And Analysts Cut Their Target Price",
+    "probabilities": [
+      0.7210012410089304,
+      0.13975897862331724,
+      0.13923978036775242
+    ]
+  },
+  {
+    "text": "Akero Therapeutics started at buy with $36 stock price target at Canaccord Genuity",
+    "probabilities": [
+      0.02107915728278923,
+      0.026614795978458398,
+      0.9523060467387524
+    ]
+  },
+  {
+    "text": "Bed Bath & Beyond reiterated as buy at BofA Merrill Lynch",
+    "probabilities": [
+      0.06820260463261231,
+      0.13993769273905082,
+      0.7918597026283369
+    ]
+  },
+  {
+    "text": "Cabot upgraded to buy from neutral at UBS",
+    "probabilities": [
+      0.03914255545703739,
+      0.08048018156681729,
+      0.8803772629761453
+    ]
+  },
+  {
+    "text": "Domtar upgraded to market perform at BMO Capital",
+    "probabilities": [
+      0.08608259237668842,
+      0.21300103082090893,
+      0.7009163768024026
+    ]
+  },
+  {
+    "text": "Estee Lauder stock price target raised to $238 from $202 at Raymond James",
+    "probabilities": [
+      0.016372021228227077,
+      0.009264282383568686,
+      0.9743636963882042
+    ]
+  },
+  {
+    "text": "Goldman adds Workday to conviction list; shares +1%",
+    "probabilities": [
+      0.2199323970102727,
+      0.10775619975199471,
+      0.6723114032377325
+    ]
+  },
+  {
+    "text": "Goldman Says 36,000% Rally in Brazilian Retailer Has Room to Run",
+    "probabilities": [
+      0.1178976082364807,
+      0.03734705898686734,
+      0.8447553327766518
+    ]
+  },
+  {
+    "text": "Hasbro upgraded to buy from neutral at UBS, price target $117",
+    "probabilities": [
+      0.01080900588177516,
+      0.011830078362526074,
+      0.9773609157556988
+    ]
+  },
+  {
+    "text": "Magnolia Oil & Gas started at overweight with $14 stock price target at KeyBanc Capital",
+    "probabilities": [
+      0.1338023933853313,
+      0.04534079130903955,
+      0.820856815305629
+    ]
+  },
+  {
+    "text": "Morgan Stanley bullish on Eldorado Resorts ahead of Caesars combination",
+    "probabilities": [
+      0.011753941395576794,
+      0.016615530776030084,
+      0.9716305278283932
+    ]
+  },
+  {
+    "text": "Morgan Stanley Raises Fortinet's Price Target After Bullish Analyst Day",
+    "probabilities": [
+      0.007914100010470701,
+      0.0027928278565530124,
+      0.9892930721329762
+    ]
+  },
+  {
+    "text": "New bull sees 22% upside for Splunk",
+    "probabilities": [
+      0.006251188893784015,
+      0.02514435253201549,
+      0.9686044585742005
+    ]
+  },
+  {
+    "text": "Oyster Point Pharma initiated at overweight with $26 price target at JP Morgan",
+    "probabilities": [
+      0.0433179712721534,
+      0.06867710325043724,
+      0.8880049254774093
+    ]
+  },
+  {
+    "text": "Analysts React To FCC Decision On Intelsat C-Band Spectrum Auction",
+    "probabilities": [
+      0.4507922557595889,
+      0.2920580637587417,
+      0.2571496804816693
+    ]
+  },
+  {
+    "text": "Aviation Capital Group Assigned \u2018Baa2\u2019 Rating by Moody\u2019s https://t.co/kEKxNfJEgZ https://t.co/5hasUcG1ON",
+    "probabilities": [
+      0.13858343142229534,
+      0.8252381096480597,
+      0.036178458929645156
+    ]
+  },
+  {
+    "text": "Here are the biggest analyst calls of the day: Netflix, Nvidia, Lyft, Molson Coors, Snap & more",
+    "probabilities": [
+      0.2149516790410986,
+      0.6266708978326236,
+      0.15837742312627784
+    ]
+  },
+  {
+    "text": "Oppenheimer calls out transformation of big-box retailer",
+    "probabilities": [
+      0.19349891604623629,
+      0.753604768734723,
+      0.05289631521904072
+    ]
+  },
+  {
+    "text": "The Federal Reserve's rescue of the overnight lending market appears to be having an unintended side effect: it's j\u2026 https://t.co/8Ko2fxHj7W",
+    "probabilities": [
+      0.021585457393000773,
+      0.9158811202597434,
+      0.06253342234725587
+    ]
+  },
+  {
+    "text": "UPDATE 2-China cbank warns high financial risks amid rising economic headwinds",
+    "probabilities": [
+      0.9605062292120082,
+      0.024627226718254486,
+      0.01486654406973741
+    ]
+  },
+  {
+    "text": "Yellen Blames \"Enormous Debt And Buybacks\" For Coming Default Wave; Morgan Stanley Says It's All The Fed's Fault  https://t.co/Ed0jVBpmhZ",
+    "probabilities": [
+      0.1305263964617241,
+      0.6002271362680621,
+      0.26924646727021373
+    ]
+  },
+  {
+    "text": "Australia central bank pumps liquidity, proposes bond buys to ease financial conditions https://t.co/JkbAPjX6Yv https://t.co/GFYiDHmP2U",
+    "probabilities": [
+      0.033230189131641996,
+      0.9549749548991344,
+      0.011794855969223583
+    ]
+  },
+  {
+    "text": "Bank of Israel expands its crisis QE with $13.6 billion in bond buying https://t.co/xEMWn1vjAO",
+    "probabilities": [
+      0.0856519851858303,
+      0.8108640745339234,
+      0.10348394028024632
+    ]
+  },
+  {
+    "text": "Mexico cuts its key rate for a 5th time amid economic stagnation https://t.co/HqpKAGRDt7 https://t.co/Jx7BHGv88y",
+    "probabilities": [
+      0.6667306750044716,
+      0.2667365502991415,
+      0.06653277469638698
+    ]
+  },
+  {
+    "text": "Mexico's central bank cut its key interest rate for a fifth straight decision https://t.co/xnfKe4SFXt",
+    "probabilities": [
+      0.31720304705849883,
+      0.5992133802865834,
+      0.08358357265491778
+    ]
+  },
+  {
+    "text": "Powell: Fed will use 'QE' aggressively to fight next recession https://t.co/me3x7SJac6",
+    "probabilities": [
+      0.06488414092653297,
+      0.817716145402697,
+      0.11739971367077004
+    ]
+  },
+  {
+    "text": "The Fed's foray into corporate bonds and certain credit ETFs helping restore order between the two markets https://t.co/lkJuQCQEKV",
+    "probabilities": [
+      0.0355832510077552,
+      0.9093944542947608,
+      0.05502229469748385
+    ]
+  },
+  {
+    "text": "\"What we clearly see again is unelected central banks, having failed at their mandates, to pivot to politics to try\u2026 https://t.co/U4Ft0573Ro",
+    "probabilities": [
+      0.07517443296692249,
+      0.805780058793477,
+      0.1190455082396006
+    ]
+  },
+  {
+    "text": "Bank of Ireland : Pillar 3 Disclosures #BankofIreland #Stock #MarketScreener https://t.co/V8GNASXXiY https://t.co/An3gEqsXmw",
+    "probabilities": [
+      0.047062352476108994,
+      0.9256127930245673,
+      0.027324854499323616
+    ]
+  },
+  {
+    "text": "Bank of Japan : The Results of BIS International Locational Banking Statistics and Interna... #BankofJapan #Stock\u2026 https://t.co/z2dSe5N09a",
+    "probabilities": [
+      0.022008105703287983,
+      0.9320103011587143,
+      0.045981593137997726
+    ]
+  },
+  {
+    "text": "Fed Chairman Powell thought it was 'terrific' that a senator defended him against Trump https://t.co/VyMW1XR0OM",
+    "probabilities": [
+      0.027385131273294037,
+      0.9615661442819825,
+      0.011048724444723478
+    ]
+  },
+  {
+    "text": "Fed sets up facility to create secondary market for new small business loans https://t.co/nu8LLQC4rJ",
+    "probabilities": [
+      0.05476695469991813,
+      0.8080308550777482,
+      0.13720219022233382
+    ]
+  },
+  {
+    "text": "Fed to beat a faster retreat from repo market https://t.co/jEGsYl2DvM",
+    "probabilities": [
+      0.15101449543101228,
+      0.672936311489352,
+      0.17604919307963585
+    ]
+  }
+]

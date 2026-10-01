@@ -1,0 +1,4 @@
+.venv/
+.venv-finbert/
+market-scope/ml/data/
+*.zip

@@ -1,0 +1,79 @@
+{
+  "model": "Xenova/finbert, quantized ONNX conversion of ProsusAI/finbert",
+  "model_revision": "8f269abebfdd9009d7d9b5e96af7e5c6bfe50b20",
+  "evaluated_at": "2026-10-01T14:47:14.059499+00:00",
+  "dataset": "Grouped holdout from zeroshot/twitter-financial-news-sentiment",
+  "count": 1185,
+  "accuracy": 0.7367088607594937,
+  "macro_f1": 0.6528105595685224,
+  "classification_report": {
+    "negative": {
+      "precision": 0.6428571428571429,
+      "recall": 0.5263157894736842,
+      "f1-score": 0.5787781350482315,
+      "support": 171.0
+    },
+    "neutral": {
+      "precision": 0.7821428571428571,
+      "recall": 0.8499353169469599,
+      "f1-score": 0.8146311221326721,
+      "support": 773.0
+    },
+    "positive": {
+      "precision": 0.6146341463414634,
+      "recall": 0.5228215767634855,
+      "f1-score": 0.5650224215246636,
+      "support": 241.0
+    },
+    "accuracy": 0.7367088607594937,
+    "macro avg": {
+      "precision": 0.6798780487804877,
+      "recall": 0.6330242277280432,
+      "f1-score": 0.6528105595685224,
+      "support": 1185.0
+    },
+    "weighted avg": {
+      "precision": 0.7279762272306267,
+      "recall": 0.7367088607594937,
+      "f1-score": 0.7298323393158204,
+      "support": 1185.0
+    }
+  },
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "confusion_matrix": [
+    [
+      90,
+      74,
+      7
+    ],
+    [
+      44,
+      657,
+      72
+    ],
+    [
+      6,
+      109,
+      126
+    ]
+  ],
+  "example": {
+    "text": "HDFC Bank ADRs Spike 4% As ICICI Group Veteran Anup Bagchi Gets CEO Charge",
+    "probabilities": {
+      "positive": 0.5897320508956909,
+      "negative": 0.10820739716291428,
+      "neutral": 0.3020605742931366
+    },
+    "label": "positive"
+  },
+  "limitations": [
+    "FinBERT was fine-tuned on Financial PhraseBank, so PhraseBank is excluded from this comparison.",
+    "This Twitter holdout was not used to select or train FinBERT in this project, but pretraining or model-development overlap cannot be fully ruled out.",
+    "No independently labelled Indian-financial-news set is available yet.",
+    "Stock-specific impact, factual truth and market returns are not measured."
+  ]
+}
