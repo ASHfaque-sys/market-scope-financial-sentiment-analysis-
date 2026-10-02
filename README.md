@@ -28,5 +28,5 @@ React, TypeScript, Vinext, Tailwind CSS, Recharts, Node.js, Python, scikit-learn
 Market data comes from Yahoo Finance public endpoints, news comes from Google News RSS, and the stock list comes from the official NSE equity file. Provider data may be delayed or unavailable.
 
 
-## The project is live on 
+# The project is live at
 https://market-scope-pink.vercel.app/
