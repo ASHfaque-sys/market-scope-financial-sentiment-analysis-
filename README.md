@@ -26,3 +26,7 @@ Open the local address printed in the terminal, usually http://127.0.0.1:5173/. 
 React, TypeScript, Vinext, Tailwind CSS, Recharts, Node.js, Python, scikit-learn, Hugging Face Transformers.js, ONNX Runtime and WebAssembly.
 
 Market data comes from Yahoo Finance public endpoints, news comes from Google News RSS, and the stock list comes from the official NSE equity file. Provider data may be delayed or unavailable.
+
+
+## The project is live on 
+https://market-scope-pink.vercel.app/
